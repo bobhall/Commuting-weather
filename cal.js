@@ -15,7 +15,7 @@ $(document).ready(function() {
       var parts = d[0].split("-"),
           year  = parseInt(parts[2]),
           day   = parseInt(parts[1]),
-         month  = parseINt(parts[0]);
+         month  = parseInt(parts[0]);
 
       month = month - 1; // Javascrpit Dates are zero-based, ie Jan=0, Feb=1, etc...
 
